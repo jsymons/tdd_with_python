@@ -104,5 +104,5 @@ class NewVisitorTest(LiveServerTestCase):
 
 		# Satisfied, they both go back to sleep
 
-		browser.quit()
+		self.browser.quit()
 
